@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight:bold;
+        }
+        a:visited{
+            color: rgb(6, 6, 158);
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: red;
+        }
+        .especial::before{
+            content: ' > ';
+        }
+        .especial::after{
+            content: ' < ';
+        }
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/SergioMor4is" target="_blank" class="especial">Perfil do GitHub</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://linkedin.com" target="_blank">Endereço do Linkedin</a></li>
+    </ul>
+    
+</body>
+</html>

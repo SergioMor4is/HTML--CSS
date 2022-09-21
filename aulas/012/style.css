@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to top, rgb(108, 170, 15) 0.1%, green);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: rgb(6, 129, 6);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+h1#principal{
+    color: greenyellow;
+
+}
+h2{
+    color: rgb(11, 253, 32);
+}
+.um{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+.dois{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
