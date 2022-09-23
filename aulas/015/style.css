@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+h1{
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    /*
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+    */
+
+    border: 10px solid darkslategray; /* ShortHand */
+
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+
+    padding: 10px; /* ShortHand */
+
+    /*
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    */
+
+    margin: 10px auto 40px auto; /* ShortHand */
+
+    /*
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: blue;
+    */
+
+    outline: 5px dashed blue; /* ShortHand */
+    
+}
+
+a {
+    border-width: 10px;
+    border-style: double;
+    border-color: red;
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
