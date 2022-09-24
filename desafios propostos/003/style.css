@@ -2,7 +2,8 @@
 
 body{
     background-color: #855018;
-    height: 650px;
+    margin: 0px;
+    
 }
 header{
     background-color: #2d95bb;
@@ -12,26 +13,50 @@ header{
     box-shadow: 2px 2px 2px black;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-
+    padding-top: 2%;
 
 }
-header > p > a {
+
+header > p {
     text-align: left;
     color: black;
-}
-main{
-    background-color: #bb9974;
-    height: 2000px;
-    padding: 10px;
-    margin: 2%;
-    text-justify: auto;
     
 }
-main > h2#video {
-    text-align: center;
+header > p > a {
+    margin-left: 2%;
+    color: black;
+}
+
+main{
+    background-color: #bb9974;
+    padding: 10px;
+    margin: 0.2% 4% 0% 4%;
+    
+    text-justify: auto;
+}
+
+main#links {
+    background-color: #2E4C99;
+    margin: 1%;
+    border-radius: 10px;
+}
+main#links > h2 {
+    background-color: #062a85;
+    margin: -2%;
+    padding: 1%;
+    border-radius: 10px;
 }
 
 iframe{
-    text-align: center;
+    background-color: #855018;
+    width: 550px;
 }
 
+footer {
+    background-color: #2d95bb;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px;
+    box-shadow: 1% 1% 1% ;
+}
