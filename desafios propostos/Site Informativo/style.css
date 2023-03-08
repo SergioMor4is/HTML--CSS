@@ -31,14 +31,18 @@ main{
     background-color: #bb9974;
     padding: 10px;
     margin: 0.2% 4% 0% 4%;
-    
     text-justify: auto;
+}
+
+.um{
+    position: relative;
 }
 
 main#links {
     background-color: #2E4C99;
     margin: 1%;
     border-radius: 10px;
+    
 }
 main#links > h2 {
     background-color: #062a85;
