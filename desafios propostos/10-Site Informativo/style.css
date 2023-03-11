@@ -3,6 +3,7 @@
 body{
     background-color: #855018;
     margin: 0px;
+    text-align: justify;
     
 }
 header{
@@ -26,7 +27,9 @@ header > p > a {
     margin-left: 2%;
     color: black;
 }
-
+#img{
+    text-align: center;
+}
 main{
     background-color: #bb9974;
     padding: 10px;
@@ -38,18 +41,20 @@ main{
     position: relative;
 }
 
-main#links {
-    background-color: #2E4C99;
-    margin: 1%;
+#links {
+    background-color: #3e62be;
+    margin: 6px;
+    padding: 10px;
     border-radius: 10px;
     
 }
-main#links > h2 {
-    background-color: #062a85;
-    margin: -2%;
-    padding: 1%;
+#links > h2 {
+    background-color: #1640a3d3;
+    margin: -2px;
+    padding: 4px;
     border-radius: 10px;
 }
+
 
 iframe{
     background-color: #855018;
@@ -63,4 +68,7 @@ footer {
     padding: 5px;
     margin: 0px;
     box-shadow: 1% 1% 1% ;
+}
+#video{
+    display: auto;
 }
