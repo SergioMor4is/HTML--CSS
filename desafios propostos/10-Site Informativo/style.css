@@ -18,17 +18,23 @@ header{
 
 }
 
-header > p {
-    text-align: left;
-    color: black;
-    
+nav {
+    background-color: #3e62be;
+    padding: 20px;
+    box-shadow: 2px 2px 8px black;
 }
-header > p > a {
-    margin-left: 2%;
+nav a{
+    font-size: 1.4em;
     color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
 }
-#img{
-    text-align: center;
+a:hover{
+    background-color: #2d95bb;
+    padding: 4.5px;
+    text-decoration: underline;
+    border-radius: 6px;
 }
 main{
     background-color: #bb9974;
@@ -36,25 +42,13 @@ main{
     margin: 0.2% 4% 0% 4%;
     text-justify: auto;
 }
-
-.um{
-    position: relative;
+main aside{
+    text-align: center;
 }
 
-#links {
-    background-color: #3e62be;
-    margin: 6px;
-    padding: 10px;
-    border-radius: 10px;
-    
+main > aside.last{
+    text-align: left;
 }
-#links > h2 {
-    background-color: #1640a3d3;
-    margin: -2px;
-    padding: 4px;
-    border-radius: 10px;
-}
-
 
 iframe{
     background-color: #855018;
@@ -69,6 +63,19 @@ footer {
     margin: 0px;
     box-shadow: 1% 1% 1% ;
 }
-#video{
-    display: auto;
+
+div.video{
+    background-color: #3e62be;
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 92%;
+    height: 92%;
 }
